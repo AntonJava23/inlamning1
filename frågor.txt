@@ -1,0 +1,25 @@
+När använder man 'add' respektive 'commit'?
+- add lägger till filer i staging area och gör dom redo att commitas.
+- commit lägger till filerna som är i staging area till repositoryt.
+
+Vad är 'pull' repektive 'push'?
+- pull är ett kommando för att uppdatera sitt eget repository med dom sensate ändringarna i
+  remote repositoryt.
+- push är kommandot man använder för att commita till ett remote repository.
+
+När använder man 'log' respektive 'status'?
+- log används för att set commit hitoriken.
+- status används för att se om något är redo att läggas till i staging area med add 
+  eller om något i staging area är redo att commitas.
+
+Vad är en Git 'branch' och varför är de viktiga?
+- Git är som ett träd. Man jobbar i huvudstammen (main/master) men om man vill göra
+  ändringar eller tester som man inte vill ska påverka main innan man vet att det funkar så
+  kan man skapa en branch. Branchan innehåller allt som main innhåller vid skapandet av 
+  branchen. Alla ändringar som görs i branchen påverkar inte main. 
+  Det är först när man merge:ar branchen med main. Det vill säga när man uppdaterar main med 
+  ändringar som man gjort i branchen. Det är viktigt att jobba med brancher så man inte hela
+  tiden skapar massa fel i main. 
+  Då main kanske är ett program som är i drift.
+ 
+
